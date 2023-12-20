@@ -12,7 +12,5 @@ func main() {
 	// 	fmt.Println("Hello World!")
 	// }
 
-	if len(os.Args) > 1 {
-		fmt.Println(SayHello(os.Args[1]))
-	}
+	fmt.Println(SayHello(os.Args[1:]))
 }
