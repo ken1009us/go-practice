@@ -26,6 +26,16 @@ string élite 6
 []uint8 [195 169 108 105 116 101] 6
 ```
 
+Fprintf: writes formatted text to the output stream you specify.
+
+```go
+fmt.Fprintf(w io.Writer, format string, a ...any)
+```
+
+Printf is equivalent to writing Fprintf() and writes formatted text to wherever the standard output stream is currently pointing.
+
+Sprintf writes formatted text to an array of char, as opposed to a stream.
+
 ## Search and replace program
 
 When you use < filename, the shell redirects the contents of filename as the standard input (stdin) to the program.
