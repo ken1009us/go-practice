@@ -11,3 +11,7 @@ The go mod init command creates a go.mod file to track your code's dependencies.
 ```bash
 $ go mod init cmd
 ```
+
+## Reference
+
+1. https://www.youtube.com/playlist?list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6
