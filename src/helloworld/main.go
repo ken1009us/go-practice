@@ -1,9 +1,8 @@
 package main
 
 import (
+	"fmt"
 	"os"
-
-	"github.com/ken1009us/go-practice/cmd/helloworld/hello"
 )
 
 func main() {
@@ -14,6 +13,6 @@ func main() {
 	// }
 
 	if len(os.Args) > 1 {
-		hello.Say(os.Args[1])
+		fmt.Println(SayHello(os.Args[1]))
 	}
 }

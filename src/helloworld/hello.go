@@ -1,8 +1,8 @@
-package helloworld
+package main
 
 import "fmt"
 
 
-func Say(name string) string {
-	return fmt.Sprintf("Hello, %s", name)
+func SayHello(name string) string {
+	return fmt.Sprintf("Hello, %s!", name)
 }
