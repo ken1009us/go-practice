@@ -25,6 +25,10 @@ func TestSayHello(t *testing.T) {
 			items: []string{"Matt"},
 			result: "Hello, Matt!",
 		},
+		{
+			items: []string{"Matt", "Kenny"},
+			result: "Hello, Matt, Kenny!",
+		},
 	}
 
 	for _, st := range subtests {
