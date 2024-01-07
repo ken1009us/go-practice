@@ -34,7 +34,8 @@ func main() {
 		return ss[i].val > ss[j].val
 	})
 
-	for _, s := range ss {
+	// ss[:3] means top 3 data in ss after sorting ss
+	for _, s := range ss[:3] {
 		fmt.Println(s.key, "appears", s.val, "times")
 
 	}
